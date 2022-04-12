@@ -1,0 +1,90 @@
+.example-trip {
+    padding-top: 130px;
+    padding-bottom: 56px;
+    background-color: #ffffff;
+}
+
+.example-trip-container {
+    max-width: 1300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article {
+    margin-bottom: 77px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-img img {
+    display: block;
+    max-width: 100%;
+}
+
+.article-text-fr {
+    padding-top: 20px;
+    position: relative;
+    max-width: 530px;
+    margin-right: 50px;
+}
+
+.article-text-fr .title-3 {
+    width: 357px;
+    padding-bottom: 45px;
+}
+
+.article-text-fr p {
+    padding-bottom: 60px;
+}
+
+.article-text-fr a {
+    color: #1B7DFF;
+}
+
+.article-text-sec {
+    position: relative;
+    padding-top: 20px;
+    padding-left: 50px;
+    max-width: 570px;
+}
+
+.article-text-sec .title-3 {
+    width: 357px;
+    padding-bottom: 45px;
+}
+
+.article-text-sec p {
+    padding-bottom: 60px;
+}
+
+.article-text-sec a {
+    color: #1B7DFF;
+}
+
+.article-text-fr .article-read-more::after {
+    position: absolute;
+    content: "";
+
+    bottom: 28.7%; 
+    left: 40%;
+
+    width: 35.52px;
+    height: 8.61px;
+
+    background-image: url(../../img/benefits/arrow.svg);
+}
+
+.article-text-sec .article-read-more::after {
+    position: absolute;
+    content: "";
+
+    bottom: 17.3%; 
+    left: 46%;
+
+    width: 35.52px;
+    height: 8.61px;
+
+    background-image: url(../../img/benefits/arrow.svg);
+}

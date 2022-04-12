@@ -1,0 +1,142 @@
+.home-screen {
+    position: relative;
+   
+    background-image: url(../../img/main/main.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    height: 1200px;
+
+}
+
+/* HEADER */
+.header {
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
+.header-container {
+    max-width: 1084px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img + img {
+    margin-left: 12px;
+}
+
+.nav ul {
+    width: 449px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li {
+    font-size: 18px;
+    color: #FFFFFF;
+    -moz-transition: all 0.2s ease-out;
+}
+
+.nav li:hover {
+    -moz-transform: scale(1.09);
+}
+
+/* END */
+
+.main {
+    padding-top: 165px;
+    padding-bottom: 500px;
+}
+
+.main-content-text h1 {
+    width: 619px;
+    margin-bottom: 37px;
+}
+
+.main-content-text p {
+    width: 540px;
+    color: #ffffff;
+    margin-bottom: 76px;
+}
+
+/* FORM */
+.form-label {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+
+.form-input {
+    max-width: 299px;
+    height: 41px;
+
+    background-color:rgba(0, 0, 0, 0);
+    color: #ffffff;
+
+    padding-left: 56px;
+    padding-right: 25px;
+    margin-right: 60px;
+    border-bottom: 1px solid #FFFFFF ;
+}
+
+.form-label::after {
+    position: absolute;
+
+    top: 18px;
+    left: 15px;
+    
+    content: "";
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-image: url(../../img/main/ellipse.svg);
+}
+
+.form-label::before {
+    position: absolute;
+
+    top: 18px;
+    left: 355px;
+    
+    content: "";
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-image: url(../../img/main/ellipse.svg);
+}
+
+/* BUTTON */
+.form_button {
+    display: inline-block;
+    height: 58px;
+    padding-left: 37px;
+    padding-right: 37px;
+    background-color: #1B7DFF;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+    -moz-transition: all 0.2s ease-out;
+}
+
+.form_button:hover {
+    -moz-transform: scale(1.09);
+}
+
+/* END */

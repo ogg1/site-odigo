@@ -1,0 +1,43 @@
+.next-trip {
+    margin-top: 640px;
+}
+
+.top-places-text {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-places-text .learn-more {
+    color: #1B7DFF;
+    padding-right: 100px;
+}
+
+.top-places-text .learn-more::after {
+    position: absolute;
+    content: "";
+
+    top: 35%; 
+    right: 1%;
+
+    width: 35.52px;
+    height: 8.61px;
+
+    background-image: url(../../img/benefits/arrow.svg);
+}
+
+.box {
+    display: flex;
+    column-gap: 10px;
+}
+
+.box img {
+    margin-bottom: 10px;
+    -moz-transition: all 0.2s ease-out;
+}
+
+.box img:hover {
+    box-shadow: 0px 10px 52px rgba(0, 0, 0, 0.2);
+    -moz-transform: scale(1.02);
+}
